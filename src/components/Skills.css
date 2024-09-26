@@ -1,0 +1,30 @@
+/* App.css */
+.skills-section {
+    padding: 60px 0;
+    background-color: #ffffff; /* Color de fondo */
+  }
+  
+  .skills-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .skills-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .skills-section .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skills-section .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .skills-section .card-text {
+    font-size: 1rem;
+  }
+  

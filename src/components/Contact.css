@@ -1,0 +1,40 @@
+.contact-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.contact-section .btn-success {
+  background-color: #25D366;
+  border-color: #25D366;
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .btn-success:hover {
+  background-color: #1EBE52;
+  border-color: #1EBE52;
+}
+
+.contact-section .btn-success .fa-whatsapp {
+  margin-right: 8px;
+}

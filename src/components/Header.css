@@ -1,0 +1,19 @@
+.fixed-top {
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .fixed-top .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .fixed-top .nav-link {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+  }
+  
+  .fixed-top .nav-link:hover {
+    color: #ffcc00;  /* Color cuando se pasa el cursor */
+  }
+  

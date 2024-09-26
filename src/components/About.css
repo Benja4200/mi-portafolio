@@ -1,0 +1,31 @@
+.about-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 250px;
+}
+
+@media (max-width: 767px) {
+  .about-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-section h2, .about-section p {
+    text-align: center;
+  }
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
