@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -9,7 +10,10 @@ import {
   faNodeJs,
   faPython,
   faPhp,
-  faLaravel
+  faLaravel,
+  faGithub,
+  faTrello
+
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faUserCog, faCode } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
@@ -31,7 +35,11 @@ const Skills = () => {
     { name: 'Scrum', icon: faUserCog },
     { name: 'Minería y Análisis de Datos', icon: faDatabase },
     { name: 'Inglés A1', icon: faUserCog },
-    { name: 'CRISP-DM', icon: faDatabase }
+    { name: 'CRISP-DM', icon: faDatabase },
+    { name: 'Github', icon: faGithub },
+    { name: 'Trello', icon: faTrello },
+
+
   ];
 
   return (

@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import 'fork-awesome/css/fork-awesome.min.css';
 
 import './index.css';
 import App from './App';

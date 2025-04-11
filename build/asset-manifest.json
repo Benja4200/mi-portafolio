@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/build/static/css/main.487230d3.css",
-    "main.js": "/mi-portafolio/build/static/js/main.b82cbc3e.js",
-    "static/js/453.211be4f6.chunk.js": "/mi-portafolio/build/static/js/453.211be4f6.chunk.js",
-    "static/media/mi-imagen2.avif": "/mi-portafolio/build/static/media/mi-imagen2.e045d01df3613c85c9a0.avif",
-    "index.html": "/mi-portafolio/build/index.html",
-    "main.487230d3.css.map": "/mi-portafolio/build/static/css/main.487230d3.css.map",
-    "main.b82cbc3e.js.map": "/mi-portafolio/build/static/js/main.b82cbc3e.js.map",
-    "453.211be4f6.chunk.js.map": "/mi-portafolio/build/static/js/453.211be4f6.chunk.js.map"
+    "main.css": "./static/css/main.eab5d753.css",
+    "main.js": "./static/js/main.233892b6.js",
+    "static/js/453.211be4f6.chunk.js": "./static/js/453.211be4f6.chunk.js",
+    "static/media/forkawesome-webfont.svg?v=1.2.0": "./static/media/forkawesome-webfont.86fe294b5591541c133d.svg",
+    "static/media/forkawesome-webfont.eot": "./static/media/forkawesome-webfont.266813812be541118030.eot",
+    "static/media/forkawesome-webfont.ttf?v=1.2.0": "./static/media/forkawesome-webfont.94d78a2cca630819d56b.ttf",
+    "static/media/forkawesome-webfont.woff?v=1.2.0": "./static/media/forkawesome-webfont.2350c61717129050edc6.woff",
+    "static/media/forkawesome-webfont.woff2?v=1.2.0": "./static/media/forkawesome-webfont.fafb863d51da3f819fea.woff2",
+    "static/media/mi-imagen2.avif": "./static/media/mi-imagen2.e045d01df3613c85c9a0.avif",
+    "index.html": "./index.html",
+    "main.eab5d753.css.map": "./static/css/main.eab5d753.css.map",
+    "main.233892b6.js.map": "./static/js/main.233892b6.js.map",
+    "453.211be4f6.chunk.js.map": "./static/js/453.211be4f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.487230d3.css",
-    "static/js/main.b82cbc3e.js"
+    "static/css/main.eab5d753.css",
+    "static/js/main.233892b6.js"
   ]
 }

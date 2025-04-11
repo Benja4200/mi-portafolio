@@ -38,3 +38,16 @@
 .contact-section .btn-success .fa-whatsapp {
   margin-right: 8px;
 }
+input,
+textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+  outline: none;
+}

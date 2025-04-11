@@ -58,8 +58,8 @@ const Contact = () => {
         <Col md={8}>
           <h2>Contacto</h2>
           <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formName">
-              <Form.Label>Nombre</Form.Label>
+            <Form.Group controlId="formName" className="form-group">
+              <Form.Label className="form-label">Nombre</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Ingresa tu nombre"
@@ -70,8 +70,8 @@ const Contact = () => {
               />
             </Form.Group>
 
-            <Form.Group controlId="formEmail">
-              <Form.Label>Email</Form.Label>
+            <Form.Group controlId="formEmail" className="form-group">
+              <Form.Label className="form-label">Email</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="Ingresa tu email"
@@ -82,8 +82,8 @@ const Contact = () => {
               />
             </Form.Group>
 
-            <Form.Group controlId="formMessage">
-              <Form.Label>Mensaje</Form.Label>
+            <Form.Group controlId="formMessage" className="form-group">
+              <Form.Label className="form-label">Mensaje</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={3}
@@ -97,7 +97,7 @@ const Contact = () => {
 
             {error && <p className="text-danger">{error}</p>}
             {status && <p className="text-success">{status}</p>}
-
+              
             <Button variant="primary" type="submit">
               Enviar
             </Button>
@@ -110,7 +110,7 @@ const Contact = () => {
             target="_blank"
             className="mt-3"
           >
-            <FontAwesomeIcon icon={faWhatsapp} /> Contactar por WhatsApp
+            <FontAwesomeIcon icon={faWhatsapp} /> 
           </Button>
         </Col>
       </Row>

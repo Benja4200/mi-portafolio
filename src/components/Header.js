@@ -4,7 +4,7 @@ import { Navbar, Nav, Button } from 'react-bootstrap';
 
 const Header = ({ darkMode, toggleDarkMode }) => {
   return (
-    <Navbar bg={darkMode ? "dark" : "light"} variant={darkMode ? "dark" : "light"} expand="lg">
+    <Navbar bg={darkMode ? "dark" : "light"} variant={darkMode ? "dark" : "light"} expand="lg" fixed="top" collapseOnSelect>
       <Navbar.Brand href="#home"> Benjamin Tagle</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
