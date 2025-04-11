@@ -1,10 +1,19 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faPython} from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faUserCog , faCode } from '@fortawesome/free-solid-svg-icons';
-import './Skills.css'; // Importa el archivo CSS
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa Bootstrap
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+  faNodeJs,
+  faPython,
+  faPhp,
+  faLaravel
+} from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faUserCog, faCode } from '@fortawesome/free-solid-svg-icons';
+import './Skills.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Skills = () => {
   const skills = [
@@ -14,8 +23,10 @@ const Skills = () => {
     { name: 'React', icon: faReact },
     { name: 'Node.js', icon: faNodeJs },
     { name: 'Python', icon: faPython },
+    { name: 'PHP', icon: faPhp },
+    { name: 'Laravel', icon: faLaravel },
     { name: 'C#', icon: faCode },
-    { name: 'Bootstrap', icon: faCss3Alt }, // Aquí puedes usar un ícono que se relacione con Bootstrap
+    { name: 'Bootstrap', icon: faCss3Alt },
     { name: 'Bases de Datos Relacionales', icon: faDatabase },
     { name: 'Scrum', icon: faUserCog },
     { name: 'Minería y Análisis de Datos', icon: faDatabase },
